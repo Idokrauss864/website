@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Change to any color you prefer */
+}
+
+header {
+    background-color: #4CAF50; /* Change the header background color */
+    color: white;
+    text-align: center;
+    padding: fixed;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px; /* Adjust the height to your desired size */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
